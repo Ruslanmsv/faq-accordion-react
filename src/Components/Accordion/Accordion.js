@@ -5,13 +5,12 @@ import s from "./Accordion.module.css";
 const Accordion = (props) => {
   return (
     <ul className={s.accordion}>
-
       {props.data.map((item) => (
         <AccordionItem
           key={item.id}
           id={"accordion-item-" + item.id}
-          question={item.question}
-          answer={item.answer}
+          title={item.title}
+          description={item.description}
         />
       ))}
     </ul>
