@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  width: 90%;
+  max-width: 920px;
+  height: 509px;
+  background-color: white;
+  box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.497159);
+  border-radius: 23px;
+}
+
+.picture {
+  width: 389px;
+  background: url("../../../public/illustration-woman-online-desktop.svg") -85px
+      70px no-repeat,
+    url("../../../public/bg-pattern-desktop.svg") -579px -296px no-repeat;
+}
+
+.box {
+  position: relative;
+  background: url("../../../public/illustration-box-desktop.svg") no-repeat;
+  width: 191px;
+  height: 184px;
+  top: 203px;
+  left: -93px;
+}
+
+.content {
+  /* max-width: 350px; */
+  padding-left: 86px;
+  padding-right: 95px;
+  padding-top: 65px;
+  margin-bottom: 83px;
+}
+
+.title {
+  margin-bottom: 43px;
+
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #1e1f36;
+}
