@@ -29,7 +29,7 @@
   margin-left: 86px;
   margin-right: 95px;
   padding-top: 65px;
-  margin-bottom: 83px;
+  /* margin-bottom: 83px; */
 }
 
 .title {
@@ -39,4 +39,44 @@
   font-size: 32px;
   line-height: 40px;
   color: #1e1f36;
+}
+
+@media (max-width: 900px) {
+  .container {
+    margin-top: 148px;
+    position: relative;
+    height: auto;
+    flex-direction: column;
+    padding-top: 132px;
+    padding-right: 24px;
+    padding-bottom: 48px;
+    padding-left: 24px;
+    width: 327px;
+    /* background: url('../../../public/bg-pattern-mobile.svg'); */
+  }
+
+  .picture { 
+    position: absolute;
+    top: -107px;
+    left: 44px;
+    width: 240px;
+    height: 208px;
+    background: url('../../../public/illustration-woman-online-mobile.svg') no-repeat, 
+                url('../../../public/bg-pattern-mobile.svg') 0 103px no-repeat ;
+  }
+
+  .box {
+    display: none;
+  }
+
+  .content {
+    width: auto;
+    margin: 0;
+    padding-top: 0;
+  }
+
+  .title {
+    margin-bottom: 38px;
+    text-align: center;
+  }
 }

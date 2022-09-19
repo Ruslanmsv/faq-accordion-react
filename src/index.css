@@ -26,3 +26,9 @@ body {
 
   background: linear-gradient(180deg, #b068e9 0%, #6463e7 100%);
 }
+
+@media (max-width: 900px) {
+  body {
+    align-items:stretch;
+  }
+}

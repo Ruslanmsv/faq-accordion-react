@@ -8,7 +8,8 @@
   margin-top: 16px;
 }
 
-.title{
+/* Styles for title */
+.title {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -19,6 +20,13 @@
   font-size: 14px;
 }
 
+input[type="radio"]:checked + .title {
+  padding: 0;
+  font-weight: 700;
+  color: #1e1f36;
+}
+
+/* Styles for arrow icon */
 .title::after {
   content: "";
   display: inline-block;
@@ -29,21 +37,12 @@
   transition: transform 0.35s ease;
 }
 
-input[type="radio"]:checked + .title{
-  padding: 0;
-  font-weight: 700;
-  color: #1e1f36;
-}
 input[type="radio"]:checked + .title::after {
   transform: rotate(180deg);
 }
 
-input[type="radio"] ~ .title:hover {
-  cursor: pointer;
-  color: #f47b56;
-}
-
-.description{
+/* Styles for description */
+.description {
   line-height: 18px;
   overflow: hidden;
   transition: all 0.35s;
@@ -59,4 +58,26 @@ input[type="radio"]:checked ~ .description {
   max-height: 100vh;
   margin-top: 11px;
   margin-bottom: 16px;
+}
+
+@media (hover: hover) {
+  input[type="radio"] ~ .title:hover {
+    cursor: pointer;
+    color: #f47b56;
+  }
+}
+
+/* Styles for mobile phones */
+@media (max-width: 900px) {
+  .title {
+    font-size: 13px;
+    line-height: 16px;
+  }
+  .description {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .title::after {
+    margin-right: 0;
+  }
 }
