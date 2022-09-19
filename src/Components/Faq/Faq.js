@@ -4,7 +4,7 @@ import s from './Faq.module.css';
 
 const Faq = props => {
     return (
-        <div className={s.container}>
+        <main className={s.container}>
             <div className={s.picture}>
                 <div className={s.box}></div>
             </div>
@@ -12,7 +12,7 @@ const Faq = props => {
                 <h1 className={s.title}>FAQ</h1>
                 <Accordion data={props.data} />
             </div>
-        </div>
+        </main>
     )
 };
 
