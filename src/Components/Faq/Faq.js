@@ -3,7 +3,6 @@ import Accordion from '../Accordion/Accordion';
 import s from './Faq.module.css';
 
 const Faq = props => {
-    console.log(props.data);
     return (
         <div className={s.container}>
             <div className={s.picture}>

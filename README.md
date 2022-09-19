@@ -40,5 +40,6 @@ Users should be able to:
 
 ### Continued development
 
-- [ ]  Move colors to separate utils .css file
-- [ ]  Fix margins/paddings for animations
+- [ ] Move colors to separate utils .css file
+- [ ] Fix margins/paddings for animations
+- [ ] Make better responsiveness

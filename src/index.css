@@ -19,7 +19,7 @@ body {
   justify-content: center;
   align-items: center;
 
-  font-family: 'Kumbh Sans', sans-serif;
+  font-family: "Kumbh Sans", sans-serif;
   font-size: 12px;
   font-weight: 400;
   line-height: 17px;
@@ -29,6 +29,6 @@ body {
 
 @media (max-width: 900px) {
   body {
-    align-items:stretch;
+    align-items: stretch;
   }
 }
